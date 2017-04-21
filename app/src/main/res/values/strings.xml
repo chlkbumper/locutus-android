@@ -1,0 +1,95 @@
+<resources>
+
+    <string name="app_name">Locutus</string>
+
+    <string name="profile_button_text">Profils</string>
+    <string name="concepts_button_text">Concepts</string>
+
+    <string name="launch_logo_text">LOCUTUS ANDROID</string>
+
+    <string name="search">Rechercher</string>
+    <string name="export">Exporter</string>
+    <string name="add">Ajouter</string>
+    <string name="edit">Modifier</string>
+
+    <string name="add_concept_dialog_title">Nouveau concept</string>
+    <string name="edit_concept_dialog_title">Modifier un concept</string>
+    <string name="search_concept_dialog_title">Rechercher un concept</string>
+    <string name="start_practice">Lancer l\'apprentissage</string>
+    <string name="edit_tree_practice">Editer l\'arbre</string>
+
+    <string name="unknown_files_found_message">Locutus a détecté que certains fichiers ajoutés au dossier Locutus ne sont attribués à aucun concept. Voulez-vous les attribuer maintenant ?</string>
+    <string name="unknown_files_found_title">Ressources non-attribuées</string>
+    <string name="what_is_this">Quel est ce fichier ?</string>
+    <string name="unknown_file_found_message">Locutus a détecté ce fichier dans le dossier de l\'application, mais il ne semble appartenir à aucun concept. Vous pouvez l\'ajouter maintenant, passer ce fichier ou arrêter la découverte de fichier.</string>
+    <string name="concept_selection_edittext_hint">Commencez à saisir le nom du concept</string>
+
+    <string name="dialog_link_file_emptyfield_warning">Le champ est vide. Veuillez saisir le nom du concept ou annuler.</string>
+    <string name="dialog_link_file_nomatch_warning">Le nom de concept que vous avez saisi ne fait pas partie de la base de donnée de Locutus. En enregistrant, vous créerez un nouveau concept.</string>
+
+
+    <string name="concept_picker_pick_title">Choisir un fichier</string>
+    <string name="concept_picker_remove_title">Supprimer</string>
+
+    <string name="concept_level_photo">Photographie</string>
+    <string name="concept_level_image">Image</string>
+    <string name="concept_level_picto">Pictogramme</string>
+
+
+    <string name="options_add_target">Ajouter une cible</string>
+    <string name="options_edit_target">Editer la cible</string>
+    <string name="options_change_concept">Changer le concept</string>
+    <string name="options_remove_target">Supprimer la cible</string>
+    <string name="options_remove_component">Supprimer le concept</string>
+    <string name="options_add_subtree">Ajouter un sous-arbre</string>
+    <string name="options_remove_subtree">Supprimer le sous-arbre</string>
+
+
+    <string name="concept_dialog_title">Choisissez un concept</string>
+
+
+    <string name="add_component_radiogroup_title">Type du composant</string>
+    <string name="add_component_radio_subtree_title">Sous-arbre</string>
+    <string name="add_component_radio_target_title">Cible</string>
+    <string name="add_component_radio_nothing_title">Concept</string>
+    <string name="concept_autocompletion_hint">Nom du concept</string>
+    <string name="edit_profile_title">Modifier le profil</string>
+    <string name="first_name">Prénom</string>
+    <string name="last_name">Nom</string>
+    <string name="images_per_scene">Nombre d\'images par défilement</string>
+    <string name="scroll_speed">Vitesse du défilement</string>
+    <string name="concepts_settings_text">RÉGLAGES</string>
+    <string name="change_root_folder">Changer…</string>
+    <string name="root_folder_placeholder">Pas de racine (non-recommandé)</string>
+    <string name="locutus_folder_root">locutus_folder_root</string>
+    <string name="root_folder_title_placeholder">Emplacement du dossier Locutus :</string>
+    <string name="preference_file_key" translatable="false">LocutusPreferences</string>
+
+    <string name="fragment_cours_level_1_name"><![CDATA[Niveau 1\nPhoto & Images]]></string>
+    <string name="fragment_cours_level_2_name"><![CDATA[Niveau 2\nImages & Pictogrammes]]></string>
+    <string name="fragment_cours_level_3_name"><![CDATA[Niveau 3\nPictogrammes seulement]]></string>
+
+    <string name="module_activity_longclick_dialog_title">Que faire ?</string>
+    <string name="new_voice_type">Nouveau type…</string>
+    <string name="voice_types_title_placeholder">Types de voix disponibles :</string>
+    <string name="delete">Supprimer</string>
+    <string name="three_dots">…</string>
+    <string name="no_voice">Aucune voix</string>
+    <string name="voices">Voix</string>
+    <string name="remove_profile">Supprimer le profil</string>
+    <string name="user_preferences">Préférences utilisateur</string>
+    <string name="remove_concept">Supprimer le concept</string>
+    <string name="are_you_sure">Confirmation</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="remove_concept_warning">Une fois supprimé, le fichier existera toujours sur votre stockage, mais ne sera plus référencé dans l\'application. Pour supprimer, veuillez confirmer.</string>
+    <string name="show_link_file_warning_audio">Ceci est une resource audio. Vous l\'ajouterez aux enregistrements du concept saisi.</string>
+    <string name="show_link_file_warning_audio_no_voice">Attention ! Il s\'agit d\'une resource audio, cependant aucune voix n\'a été déclarée. Veuillez en créer dans les réglages de l\'application avant avant de les compléter.</string>
+    <string name="remove_subtree_warning">Voulez-vous vraiment supprimer ce sous arbre ? Cette action est irréversible.</string>
+    <string name="link">Assistant concept</string>
+    <string name="choose_target">Choisir la cible</string>
+    <string name="add_component_dialog_title">Ajouter un composant</string>
+    <string name="voices_name">VOIX</string>
+    <string name="concepts_name">CONCEPTS</string>
+
+</resources>

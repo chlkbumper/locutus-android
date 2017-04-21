@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="me.cendre.locutusandroid">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/locutus_appicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+
+        tools:node="replace"
+
+        >
+
+        <activity
+            android:name=".ui.LaunchActivity"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.ProfilesActivity"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".ui.ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+
+        <activity
+            android:name=".ui.ResourcesActivity"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".ui.ResourceComponentManagerActivity"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".ui.ConceptsActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".ui.AppSettingsActivity"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".ui.ModuleCoursActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name=".ui.ModulePratiqueActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme"></activity>
+
+
+    </application>
+
+</manifest>

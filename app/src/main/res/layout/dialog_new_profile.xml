@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
+
+
+        <ImageView
+            android:id="@+id/new_profile_imageview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/dialog_new_profile_firstname_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="@string/first_name"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/dialog_new_profile_lastname_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/last_name"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:id="@+id/new_profile_ips_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/images_per_scene"
+            android:textSize="18sp" />
+
+        <SeekBar
+            android:id="@+id/new_profile_ips_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/new_profile_speed_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/scroll_speed"
+            android:textSize="18sp" />
+
+        <SeekBar
+            android:id="@+id/new_profile_speed_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+
+        <TextView
+            android:id="@+id/new_profile_voice_type_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/voices"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/new_profile_voice_type_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="10dp">
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

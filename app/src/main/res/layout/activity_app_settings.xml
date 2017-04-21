@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="40dp">
+
+
+    <TextView
+        android:id="@+id/activity_app_settings_root_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:hint="@string/root_folder_title_placeholder"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="20">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+
+        <TextView
+            android:id="@+id/activity_app_settings_root_textview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="13"
+            android:gravity="center_vertical"
+            android:hint="@string/root_folder_placeholder"
+            android:textAlignment="gravity" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+
+        <Button
+            android:id="@+id/activity_app_settings_root_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/change_root_folder" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/activity_app_settings_voicetypes_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="start"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
+        android:text="@string/voice_types_title_placeholder"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+
+    <ListView
+        android:id="@+id/activity_app_settings_voicetypes_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp" />
+
+
+</LinearLayout>
